@@ -1,5 +1,5 @@
 <?php
-    include 'db.php';
+    include 'db1.php';
             $query = "SELECT * FROM chat ORDER BY id DESC";
             $run = $con->query($query);
             while($row = $run->fetch_array()):
